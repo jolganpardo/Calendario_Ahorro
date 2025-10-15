@@ -1,70 +1,82 @@
-# Getting Started with Create React App
+# 🗓️ Calendario de Ahorro
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Aplicación desarrollada en React y Tailwind CSS que permite visualizar y registrar tu progreso de ahorro mes a mes.
+La meta total se calcula automáticamente en función del ahorro mensual, y puedes marcar cada mes como completado.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 💰 Objetivo
 
-### `npm start`
+El propósito del proyecto es fomentar la constancia en el ahorro personal.
+En este caso, la meta es ahorrar **2.040.000 COP** en un año, aportando **170.000 COP mensuales**.
+Además, incluye una meta específica: **comprar un celular de 1.500.000 COP**.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## ⚙️ Tecnologías utilizadas
 
-### `npm test`
+* React (para la interfaz principal).
+* Tailwind CSS (para un diseño limpio y moderno).
+* JavaScript moderno (ES6+).
+* Node.js y npm como entorno de desarrollo.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## 🚀 Cómo ejecutar el proyecto
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. Clona el repositorio y entra al directorio del proyecto:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+   ```
+   git clone https://github.com/jolganpardo/Calendario_Ahorro.git
+   cd calendario-ahorro
+   ```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+2. Instala las dependencias necesarias:
 
-### `npm run eject`
+   ```
+   npm install
+   ```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+3. Ejecuta el servidor de desarrollo:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+   ```
+   npm start
+   ```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+   Luego abre tu navegador en [http://localhost:3000](http://localhost:3000)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+---
 
-## Learn More
+## 📊 Funcionalidades principales
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+* Registrar los meses completados de ahorro.
+* Ver una barra de progreso con el total del ahorro y otra con la meta del celular.
+* Calcular automáticamente el total anual según el ahorro mensual.
+* Interfaz moderna, responsiva y visualmente agradable.
+* Frase motivacional para reforzar la constancia del ahorro.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+---
 
-### Code Splitting
+## 🧠 Estructura del proyecto
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+```
+calendario-ahorro/
+├── public/
+│   └── index.html
+├── src/
+│   ├── App.js          → Lógica principal y diseño del calendario
+│   ├── index.js        → Punto de entrada de React
+│   ├── index.css       → Estilos base con Tailwind
+├── tailwind.config.js  → Configuración de Tailwind
+├── package.json
+└── README.md
+```
 
-### Analyzing the Bundle Size
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## 🏁 Autor
 
-### Making a Progressive Web App
+**Jolgan**
+Proyecto personal para el seguimiento del ahorro y metas financieras.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+---
