@@ -2,7 +2,7 @@
   "name": "calendario-ahorro",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/jolganpardo/Calendario_Ahorro",
+ "homepage": "https://jolganpardo.github.io/Calendario_Ahorro",
   "dependencies": {
     "@testing-library/dom": "^10.4.1",
     "@testing-library/jest-dom": "^6.9.1",
