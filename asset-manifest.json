@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/jolganpardo/Calendario_Ahorro/static/css/main.eedbd7cf.css",
-    "main.js": "/jolganpardo/Calendario_Ahorro/static/js/main.3aa531ca.js",
-    "index.html": "/jolganpardo/Calendario_Ahorro/index.html",
-    "main.eedbd7cf.css.map": "/jolganpardo/Calendario_Ahorro/static/css/main.eedbd7cf.css.map",
-    "main.3aa531ca.js.map": "/jolganpardo/Calendario_Ahorro/static/js/main.3aa531ca.js.map"
+    "main.css": "/Calendario_Ahorro/static/css/main.eedbd7cf.css",
+    "main.js": "/Calendario_Ahorro/static/js/main.3aa531ca.js",
+    "index.html": "/Calendario_Ahorro/index.html",
+    "main.eedbd7cf.css.map": "/Calendario_Ahorro/static/css/main.eedbd7cf.css.map",
+    "main.3aa531ca.js.map": "/Calendario_Ahorro/static/js/main.3aa531ca.js.map"
   },
   "entrypoints": [
     "static/css/main.eedbd7cf.css",
